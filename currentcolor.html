@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Current Color</title>
+        <style>
+            body{font-family: Arial, Helvetica, sans-serif;}
+            h1{
+                text-align: center;
+            }
+            #test{
+                color: red;
+                width: 500px;
+                padding: 10px;
+                margin: 0 auto;
+                border: 2px solid #000;
+            }
+            #test h2{
+                border-bottom: 2px solid currentColor;
+            }
+            #test .readmore{
+                color: currentColor;
+                background: purple;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1>Current color Mode</h1>
+        <div id="test">
+            <h2>Yahoo baba</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id suscipit accusantium exercitationem omnis impedit laboriosam maxime eveniet nisi quae repudiandae nemo totam dolore, recusandae a unde adipisci consequuntur harum doloremque saepe! Cum sunt magnam dolor numquam asperiores, obcaecati voluptatibus blanditiis eaque quasi, facilis pariatur maiores id dignissimos necessitatibus nisi est!</p>
+            <a class="readmore" href="">
+            readmore
+            </a>
+        </div>
+    </body>
+</html>

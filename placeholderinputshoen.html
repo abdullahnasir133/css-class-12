@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>:placeholder-shown</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                line-height: 24px;
+            }
+            h1{
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            input{
+                font-size: 20px;
+                border: 3px solid black;
+                width: 300px;
+                padding: 5px;}
+
+/*placeholder shown in specific target we will do
+imput[type="text"]:placeholder-shown{
+like that}*/
+            input:placeholder-shown{
+                    border: 3px solid red;
+                }
+        </style>
+    </head>
+    <body>
+        <h1>:placeholder-shown</h1>
+        <form action="">
+            <input type="text" placeholder="Enter Name"><br><br>
+            <input type="text" placeholder="Enter Address"><br><br>
+            <input type="text" placeholder="Enter Percentage"><br><br>
+            <input type="text" placeholder="Enter Email"><br><br>
+
+        </form>
+    </body>
+</html>
